@@ -16,7 +16,7 @@
         method: 'POST', headers: {
           "Content-Type": "application/json",
           "Access-Control-Origin": "*"
-        }, body: JSON.stringify({ a: 1 })
+        }, body: JSON.stringify({ age: 20, name: "Jhon", sexual: "man", role: true })
       });
       let res = await resp.json();
       console.log(res);
